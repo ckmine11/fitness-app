@@ -187,7 +187,7 @@ spec:
     spec:
       containers:
         - name: catalog-mongo
-          image: mongo:4
+          image: mongo-express
           imagePullPolicy: IfNotPresent
           resources: {}
           ports:
@@ -386,7 +386,7 @@ spec:
     spec:
       containers:
         - name: order-mongo
-          image: mongo:4
+          image: mongo-express
           imagePullPolicy: IfNotPresent
           resources: {}
           ports:
@@ -581,7 +581,7 @@ spec:
     spec:
       containers:
         - name: users-mongo
-          image: mongo:4
+          image: mongo-express
           imagePullPolicy: IfNotPresent
           resources: {}
           ports:
