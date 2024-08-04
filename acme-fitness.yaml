@@ -130,8 +130,8 @@ spec:
               name: "cart-data"
           resources:
             requests:
-              memory: "64Mi"
-              cpu: "100m"
+              memory: "256Mi"
+              cpu: "300m"
             limits:
               memory: "256Mi"
               cpu: "500m"
@@ -283,8 +283,8 @@ spec:
               name: "catalog-data"
           resources:
             requests:
-              memory: "64Mi"
-              cpu: "100m"
+              memory: "256Mi"
+              cpu: "400m"
             limits:
               memory: "256Mi"
               cpu: "500m"
@@ -479,8 +479,8 @@ spec:
               name: "order-data"
           resources:
             requests:
-              memory: "64Mi"
-              cpu: "100m"
+              memory: "256Mi"
+              cpu: "400m"
             limits:
               memory: "256Mi"
               cpu: "500m"
@@ -677,8 +677,8 @@ spec:
               name: "users-data"
           resources:
             requests:
-              memory: "64Mi"
-              cpu: "100m"
+              memory: "256Mi"
+              cpu: "400m"
             limits:
               memory: "256Mi"
               cpu: "500m"
